@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "id": "generic.point_15_60x40",
+  "manufacturer": "Generic",
+  "model": "15-inch long-throw point source 60x40",
+  "category": "point_source",
+  "data_quality": "basic_spec",
+  "approximation": true,
+  "physical": { "width_m": 0.46, "height_m": 0.75, "depth_m": 0.45, "weight_kg": 32.0 },
+  "acoustic_origin_m": [0.0, 0.22, 0.0],
+  "acoustic": {
+    "max_spl_1m_db": 136.0,
+    "frequency_response_db": [-12.0, -3.0, 0.0, 0.0, 0.0, 0.0, -1.0, -4.0],
+    "directivity": {
+      "type": "parametric_coverage",
+      "horizontal_deg": [180, 160, 120, 80, 60, 60, 60, 55],
+      "vertical_deg": [180, 160, 110, 70, 40, 40, 40, 35]
+    }
+  },
+  "source": {
+    "name": "Illustrative generic approximation (not a real product, not measured data)",
+    "version": "1",
+    "license": "CC0-1.0",
+    "notes": "Placeholder for testing the workflow."
+  }
+}

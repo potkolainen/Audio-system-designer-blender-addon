@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "d_b_audiotechnik.y10p",
+  "manufacturer": "d&b audiotechnik",
+  "model": "Y10P",
+  "category": "point_source",
+  "data_quality": "basic_spec",
+  "approximation": true,
+  "physical": {
+    "width_m": 0.257,
+    "height_m": 0.58,
+    "depth_m": 0.341,
+    "weight_kg": 18.0
+  },
+  "acoustic_origin_m": [
+    0.0,
+    0.1705,
+    0.0
+  ],
+  "acoustic": {
+    "max_spl_broadband_db": 136,
+    "frequency_response_db": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "directivity": {
+      "type": "parametric_coverage",
+      "horizontal_deg": [
+        537.1,
+        317.9,
+        187.0,
+        110,
+        110,
+        110,
+        110,
+        110
+      ],
+      "vertical_deg": [
+        195.3,
+        115.6,
+        68.0,
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    }
+  },
+  "source": {
+    "name": "d&b audiotechnik Y10P product page",
+    "version": "1",
+    "license": "Published specification figures only",
+    "url": "https://www.dbaudio.com/global/en/products/series/y-series/y10p/",
+    "notes": "Retrieved 2026-11-08. Published: 59 Hz-18 kHz (-5 dB), SPLmax 136 dB (with D40/D80/D90/40D), 110x40 horn rotatable by 90 degrees, horizontal directivity controlled down to 500 Hz, 580x257x341 mm, 18 kg. Polar shape is modelled from the nominal coverage (widening below the control frequency); it is not measured data."
+  }
+}

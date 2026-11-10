@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "d_b_audiotechnik.e3",
+  "manufacturer": "d&b audiotechnik",
+  "model": "E3",
+  "category": "point_source",
+  "data_quality": "basic_spec",
+  "approximation": true,
+  "physical": {
+    "width_m": 0.19,
+    "height_m": 0.352,
+    "depth_m": 0.204,
+    "weight_kg": 7.2
+  },
+  "acoustic_origin_m": [
+    0.0,
+    0.102,
+    0.0
+  ],
+  "acoustic": {
+    "max_spl_broadband_db": 123,
+    "frequency_response_db": [
+      -9.1,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "directivity": {
+      "type": "parametric_coverage",
+      "horizontal_deg": [
+        720.0,
+        442.2,
+        260.1,
+        153.0,
+        90,
+        90,
+        90,
+        90
+      ],
+      "vertical_deg": [
+        498.1,
+        294.8,
+        173.4,
+        102.0,
+        60,
+        60,
+        60,
+        60
+      ]
+    }
+  },
+  "source": {
+    "name": "d&b audiotechnik E3 product page (heritage)",
+    "version": "1",
+    "license": "Published specification figures only",
+    "url": "https://www.dbaudio.com/global/en/products/heritage/e3/",
+    "notes": "Retrieved 2026-11-08. Published: 80 Hz-18 kHz (-5 dB), SPLmax 123 dB (1 m, free field, peak, pink noise CF 4), 90x60 rotatable CD horn, 352x190x204 mm (h x w x d), 7.2 kg. The 1 kHz control frequency is an assumption. Polar shape is modelled from the nominal coverage (widening below the control frequency); it is not measured data."
+  }
+}

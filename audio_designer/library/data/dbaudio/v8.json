@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "d_b_audiotechnik.v8",
+  "manufacturer": "d&b audiotechnik",
+  "model": "V8",
+  "category": "line_array",
+  "data_quality": "basic_spec",
+  "approximation": true,
+  "physical": {
+    "width_m": 0.7,
+    "height_m": 0.31,
+    "depth_m": 0.46,
+    "weight_kg": 34.0,
+    "side_angle_deg": 14
+  },
+  "acoustic_origin_m": [
+    0.0,
+    0.23,
+    0.0
+  ],
+  "acoustic": {
+    "max_spl_broadband_db": 142,
+    "frequency_response_db": [
+      -6.1,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "directivity": {
+      "type": "parametric_coverage",
+      "horizontal_deg": [
+        229.8,
+        136.0,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "vertical_deg": [
+        83.0,
+        49.1,
+        28.9,
+        17.0,
+        10,
+        10,
+        10,
+        10
+      ]
+    }
+  },
+  "source": {
+    "name": "d&b audiotechnik V8 product page",
+    "version": "1",
+    "license": "Published specification figures only",
+    "url": "https://www.dbaudio.com/global/en/products/series/v-series/v8/",
+    "notes": "Retrieved 2026-11-08. Published: 67 Hz-18 kHz (-5 dB), SPLmax 142 dB, 80 degree horizontal (>= 250 Hz), splay 0-14 degrees, up to 24 cabinets, 310x700x460 mm, 34 kg. The 10 degree vertical coverage and its 1 kHz control frequency are assumptions, not published figures. Polar shape is modelled from the nominal coverage (widening below the control frequency); it is not measured data. Rigging and safety calculations must be done in d&b ArrayCalc."
+  },
+  "array": {
+    "max_splay_deg": 14,
+    "max_cabinets": 24
+  }
+}

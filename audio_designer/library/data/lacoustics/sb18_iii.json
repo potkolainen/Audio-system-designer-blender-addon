@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "l_acoustics.sb18_iii",
+  "manufacturer": "L-Acoustics",
+  "model": "SB18 IIi",
+  "category": "subwoofer",
+  "data_quality": "basic_spec",
+  "approximation": true,
+  "physical": {
+    "width_m": 0.701,
+    "height_m": 0.54,
+    "depth_m": 0.728,
+    "weight_kg": 48.0
+  },
+  "acoustic_origin_m": [
+    0.0,
+    0.364,
+    0.0
+  ],
+  "acoustic": {
+    "max_spl_broadband_db": 138,
+    "frequency_response_db": [
+      0.0,
+      -8.9,
+      -20.9,
+      -32.9,
+      -44.9,
+      -56.9,
+      -68.9,
+      -80.9
+    ],
+    "directivity": {
+      "type": "parametric_coverage",
+      "horizontal_deg": [
+        284.9,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "vertical_deg": [
+        284.9,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ]
+    }
+  },
+  "source": {
+    "name": "L-Acoustics SB18 IIi product page",
+    "version": "1",
+    "license": "Published specification figures only",
+    "url": "https://www.l-acoustics.com/products/sb18-iii/",
+    "notes": "Retrieved 2026-11-08. Published: low frequency limit 32 Hz, max SPL 138 dB, 1 x 18 inch, 701x540x728 mm (W x H x D), 48 kg, standard or cardioid configurations. The standard configuration is modelled; build a cardioid set-up with a Subwoofer Array. The 100 Hz upper limit is an assumption (none is published on the page). The pattern is a wide, nearly omnidirectional approximation."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "id": "generic.point_12_90x60",
+  "manufacturer": "Generic",
+  "model": "12-inch point source 90x60",
+  "category": "point_source",
+  "data_quality": "basic_spec",
+  "approximation": true,
+  "physical": { "width_m": 0.38, "height_m": 0.62, "depth_m": 0.36, "weight_kg": 18.0 },
+  "acoustic_origin_m": [0.0, 0.18, 0.0],
+  "acoustic": {
+    "max_spl_1m_db": 130.0,
+    "frequency_response_db": [-18.0, -6.0, 0.0, 0.0, 0.0, 0.0, -1.0, -4.0],
+    "directivity": {
+      "type": "parametric_coverage",
+      "horizontal_deg": [180, 180, 160, 120, 90, 90, 90, 80],
+      "vertical_deg": [180, 180, 150, 100, 60, 60, 60, 50]
+    }
+  },
+  "source": {
+    "name": "Illustrative generic approximation (not a real product, not measured data)",
+    "version": "1",
+    "license": "CC0-1.0",
+    "notes": "Placeholder for testing the workflow. Replace with licensed manufacturer data for real design work."
+  }
+}

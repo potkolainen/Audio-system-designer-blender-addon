@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "id": "generic.sub_18",
+  "manufacturer": "Generic",
+  "model": "Single 18-inch subwoofer",
+  "category": "subwoofer",
+  "data_quality": "basic_spec",
+  "approximation": true,
+  "physical": { "width_m": 0.60, "height_m": 0.60, "depth_m": 0.70, "weight_kg": 45.0 },
+  "acoustic_origin_m": [0.0, 0.35, 0.0],
+  "acoustic": {
+    "max_spl_1m_db": 134.0,
+    "frequency_response_db": [-3.0, 0.0, -2.0, -18.0, -40.0, -60.0, -80.0, -80.0],
+    "directivity": {
+      "type": "parametric_coverage",
+      "horizontal_deg": [720, 720, 400, 200, 120, 90, 60, 50],
+      "vertical_deg": [720, 720, 400, 200, 120, 90, 60, 50]
+    }
+  },
+  "source": {
+    "name": "Illustrative generic approximation (not a real product, not measured data)",
+    "version": "1",
+    "license": "CC0-1.0",
+    "notes": "Placeholder for testing the workflow."
+  }
+}

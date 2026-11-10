@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "id": "d_b_audiotechnik.y_sub",
+  "manufacturer": "d&b audiotechnik",
+  "model": "Y-SUB",
+  "category": "subwoofer",
+  "data_quality": "basic_spec",
+  "approximation": true,
+  "physical": {
+    "width_m": 0.63,
+    "height_m": 0.5,
+    "depth_m": 0.7,
+    "weight_kg": 52.0
+  },
+  "acoustic_origin_m": [
+    0.0,
+    0.35,
+    0.0
+  ],
+  "acoustic": {
+    "max_spl_broadband_db": 134,
+    "frequency_response_db": [
+      0.0,
+      0.0,
+      -15.0,
+      -27.0,
+      -39.0,
+      -51.0,
+      -63.0,
+      -75.0
+    ],
+    "directivity": {
+      "type": "cardioid"
+    }
+  },
+  "source": {
+    "name": "d&b audiotechnik Y-SUB product page",
+    "version": "1",
+    "license": "Published specification figures only",
+    "url": "https://www.dbaudio.com/global/en/products/series/y-series/y-sub/",
+    "notes": "Retrieved 2026-11-08. Published: 39-140 Hz (-5 dB), SPLmax 134 dB (with D40/D80/D90/40D), cardioid, 500x630x700 mm (depth is listed as 700 / 804 mm, 700 used), 52 kg. Directivity is an ideal cardioid. The engine holds the 63 Hz response below 63 Hz."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "generic.line_12_dual",
+  "manufacturer": "Generic",
+  "model": "Dual 12-inch line array element",
+  "category": "line_array",
+  "data_quality": "basic_spec",
+  "approximation": true,
+  "physical": { "width_m": 0.60, "height_m": 0.30, "depth_m": 0.45, "weight_kg": 32.0, "side_angle_deg": 10.0 },
+  "acoustic_origin_m": [0.0, 0.225, 0.0],
+  "array": { "max_splay_deg": 10.0, "max_cabinets": 24 },
+  "acoustic": {
+    "max_spl_1m_db": 140.0,
+    "frequency_response_db": [-12.0, -3.0, 0.0, 0.0, 0.0, 0.0, -1.0, -4.0],
+    "directivity": {
+      "type": "parametric_coverage",
+      "horizontal_deg": [180, 180, 150, 120, 100, 100, 100, 90],
+      "vertical_deg": [180, 180, 140, 90, 40, 15, 10, 10]
+    }
+  },
+  "source": {
+    "name": "Illustrative generic approximation (not a real product, not measured data)",
+    "version": "1",
+    "license": "CC0-1.0",
+    "notes": "Placeholder for testing the workflow. Real element data, splay limits and rigging come from the manufacturer."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "id": "generic.point_8_100x100",
+  "manufacturer": "Generic",
+  "model": "8-inch compact point source 100x100",
+  "category": "fill",
+  "data_quality": "basic_spec",
+  "approximation": true,
+  "physical": { "width_m": 0.27, "height_m": 0.42, "depth_m": 0.26, "weight_kg": 8.0 },
+  "acoustic_origin_m": [0.0, 0.13, 0.0],
+  "acoustic": {
+    "max_spl_1m_db": 120.0,
+    "frequency_response_db": [-30.0, -14.0, -3.0, 0.0, 0.0, 0.0, -1.0, -3.0],
+    "directivity": {
+      "type": "parametric_coverage",
+      "horizontal_deg": [180, 180, 170, 140, 110, 100, 100, 90],
+      "vertical_deg": [180, 180, 170, 140, 110, 100, 100, 90]
+    }
+  },
+  "source": {
+    "name": "Illustrative generic approximation (not a real product, not measured data)",
+    "version": "1",
+    "license": "CC0-1.0",
+    "notes": "Placeholder for testing the workflow."
+  }
+}

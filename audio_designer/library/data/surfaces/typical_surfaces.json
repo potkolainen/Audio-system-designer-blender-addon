@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "kind": "surface_set",
+  "source": {
+    "name": "Typical octave-band absorption coefficients, representative of commonly published acoustics tables",
+    "version": "1",
+    "license": "CC0-1.0",
+    "notes": "Representative values only, not taken verbatim from one source. Real products vary with thickness, mounting and test method. 63 Hz copies the 125 Hz value and 8 kHz copies the 4 kHz value. Scattering is an indicative estimate. Replace with measured or supplier data for real design work."
+  },
+  "surfaces": [
+    { "id": "generic.concrete_unpainted", "name": "Concrete, unpainted", "category": "structure",
+      "absorption": [0.01, 0.01, 0.01, 0.015, 0.02, 0.02, 0.02, 0.02], "scattering": 0.05 },
+    { "id": "generic.concrete_painted", "name": "Concrete block, painted", "category": "structure",
+      "absorption": [0.10, 0.10, 0.05, 0.06, 0.07, 0.09, 0.08, 0.08], "scattering": 0.05 },
+    { "id": "generic.brick", "name": "Brick, unglazed", "category": "structure",
+      "absorption": [0.03, 0.03, 0.03, 0.03, 0.04, 0.05, 0.07, 0.07], "scattering": 0.1 },
+    { "id": "generic.plasterboard", "name": "Plasterboard on studs", "category": "structure",
+      "absorption": [0.29, 0.29, 0.10, 0.05, 0.04, 0.07, 0.09, 0.09], "scattering": 0.1 },
+    { "id": "generic.glass", "name": "Window glass", "category": "structure",
+      "absorption": [0.35, 0.35, 0.25, 0.18, 0.12, 0.07, 0.04, 0.04], "scattering": 0.05 },
+    { "id": "generic.wood_panelling", "name": "Wood panelling over air gap", "category": "structure",
+      "absorption": [0.42, 0.42, 0.21, 0.10, 0.08, 0.06, 0.06, 0.06], "scattering": 0.1 },
+    { "id": "generic.wood_floor_parquet", "name": "Wood parquet on concrete", "category": "floor",
+      "absorption": [0.04, 0.04, 0.04, 0.07, 0.06, 0.06, 0.07, 0.07], "scattering": 0.1 },
+    { "id": "generic.wood_stage_floor", "name": "Wood stage floor on joists", "category": "floor",
+      "absorption": [0.15, 0.15, 0.11, 0.10, 0.07, 0.06, 0.07, 0.07], "scattering": 0.1 },
+    { "id": "generic.carpet_heavy", "name": "Heavy carpet on concrete", "category": "floor",
+      "absorption": [0.02, 0.02, 0.06, 0.14, 0.37, 0.60, 0.65, 0.65], "scattering": 0.1 },
+    { "id": "generic.curtain_heavy", "name": "Heavy curtain, draped", "category": "soft",
+      "absorption": [0.14, 0.14, 0.35, 0.55, 0.72, 0.70, 0.65, 0.65], "scattering": 0.2 },
+    { "id": "generic.audience_seated", "name": "Audience, seated, upholstered seats", "category": "soft",
+      "absorption": [0.60, 0.60, 0.74, 0.88, 0.96, 0.93, 0.85, 0.85], "scattering": 0.5 }
+  ]
+}

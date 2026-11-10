@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "l_acoustics.kara_ii",
+  "manufacturer": "L-Acoustics",
+  "model": "KARA II",
+  "category": "line_array",
+  "data_quality": "basic_spec",
+  "approximation": true,
+  "physical": {
+    "width_m": 0.733,
+    "height_m": 0.252,
+    "depth_m": 0.5,
+    "weight_kg": 26.0,
+    "side_angle_deg": 10
+  },
+  "acoustic_origin_m": [
+    0.0,
+    0.25,
+    0.0
+  ],
+  "acoustic": {
+    "max_spl_broadband_db": 142,
+    "frequency_response_db": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "directivity": {
+      "type": "parametric_coverage",
+      "horizontal_deg": [
+        720.0,
+        442.2,
+        260.1,
+        153.0,
+        90,
+        90,
+        90,
+        90
+      ],
+      "vertical_deg": [
+        83.0,
+        49.1,
+        28.9,
+        17.0,
+        10,
+        10,
+        10,
+        10
+      ]
+    }
+  },
+  "source": {
+    "name": "L-Acoustics KARA II product page",
+    "version": "1",
+    "license": "Published specification figures only",
+    "url": "https://www.l-acoustics.com/products/kara-ii/",
+    "notes": "Retrieved 2026-11-08. Published: 55 Hz-20 kHz, max SPL 142 dB, horizontal 70/90/110 degrees selectable (90 used), vertical 10 degrees, 733x252x500 mm (W x H x D), 26 kg. The 1 kHz control frequency, the 10 degree maximum splay and the 24 cabinet limit are assumptions, not published figures. Polar shape is modelled from the nominal coverage (widening below the control frequency); it is not measured data. Rigging and safety calculations must be done in L-Acoustics Soundvision."
+  },
+  "array": {
+    "max_splay_deg": 10,
+    "max_cabinets": 24
+  }
+}

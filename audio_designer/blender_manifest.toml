@@ -1,0 +1,13 @@
+schema_version = "1.0.0"
+
+id = "audio_designer"
+version = "0.2.0"
+name = "Audio System Designer"
+tagline = "Loudspeaker placement and SPL prediction for live sound"
+maintainer = "Pötkö"
+type = "add-on"
+website = "https://github.com/potkolainen/Audio-system-designer-blender-addon"
+support = "https://github.com/potkolainen/Audio-system-designer-blender-addon/issues"
+blender_version_min = "4.2.0"
+license = ["SPDX:GPL-3.0-or-later"]
+tags = ["Scene", "3D View"]
